@@ -1,2 +1,2 @@
-[GIT COMMIT]('./git-commit.md')
-[GIT STASH]('./git-stash.md)
+[GIT COMMIT](git-commit.md) <br/>
+[GIT STASH](git-stash.md)
