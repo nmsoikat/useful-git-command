@@ -37,7 +37,7 @@ together -p -u
 `git stash show stash@{0}` To show Individual stash by using stash reference stash@{0}
 
 
-### Apply and Drop
+### Apply and Drop Stash
 - `git stash apply stash@{0}`
 - `git stash drop stash@{0}`
 - `git stash pop`
@@ -68,5 +68,4 @@ stash@{0} => Stash reference
 WIP => Work In progress  
 auth => auth is the branch name, the stash was created on
 the branch  
-0857051 => commit hash  
-Thank you!
+0857051 => commit hash
