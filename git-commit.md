@@ -1,4 +1,4 @@
-`git commit -am "Add all and commit"` => not work for untracked file.
+`git commit -am "Add all and commit"` => not work for untracked(new file) file.
 `git commit -m "Not a correct commit message"`
 `git commit --amend -m "Correct the commit message"`
 
