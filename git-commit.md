@@ -1,3 +1,4 @@
+`git commit -am "Add all and commit"`
 `git commit -m "Not a correct commit message"`
 `git commit --amend -m "Correct the commit message"`
 
