@@ -2,3 +2,7 @@
 `git commit --amend -m "Correct the commit message"`
 
 `git commit --amend` => Add another changes with recent commit. So we do not need to create extra commit.
+
+`git rm --cached private.js` => file will not added to staging. like as .gitignore
+
+`git rm -r --cached privateFolder/` => -r (recursive) flag for folder.
