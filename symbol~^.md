@@ -1,0 +1,3 @@
+- HEAD~2 or HEAD~^1 or HEAD^^
+- HEAD~3 or HEAD~2^ or HEAD~2^1 or HEAD^^^
+- HEAD~2^2 or HEAD^^^2
