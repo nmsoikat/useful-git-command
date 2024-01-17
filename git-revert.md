@@ -14,3 +14,8 @@ Revert the changes done by commits from the fifth last commit in master (include
 
 `git revert -n HEAD~2..HEAD` last 2 commit
 `git revert -n HEAD~2..` last 2 commit
+
+
+Note (For Revert): 
+- HEAD~1  => last 2 commit.
+- HEAD~1..HEAD or HEAD~1.. => last 1 commit.

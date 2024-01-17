@@ -1,0 +1,1 @@
+`git rm --cached` => Get back from staging-area or from local Repository.
