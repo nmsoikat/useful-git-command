@@ -1,3 +1,11 @@
+Rebase: Clean your un-cline commit history 
+`git rebase main` => Lets say our current branch is feature.
+- Find "last match commit" for both.
+- For Feature Branch: Store to one hand, latest commits "that are not match" with main
+- Take all latest commits into Feature Branch from main branch "that are not match".
+- Now apply serially all commits of Feature branch "that was store one side"
+
+
 `git rebase -i HEAD~5` => -i (Interactive shell)
 - editor will open and press i for insert
 - remove pick and type s (squash) on start of each commit
