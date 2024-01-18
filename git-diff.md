@@ -1,0 +1,1 @@
+`git diff commit-id1 commit-id2` show the changes between these two commit.
