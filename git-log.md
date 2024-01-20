@@ -5,3 +5,5 @@
 
 `git log --graph` show details log with graphical view.
 `git log --graph --oneline` show log with graphical view.
+
+`git log feature --oneline` specify the branch name to see loges of this branch. from another branch.
