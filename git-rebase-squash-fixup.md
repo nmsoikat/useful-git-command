@@ -5,6 +5,9 @@ Rebase: Clean your un-cline commit history
 - Take all latest commits into Feature Branch from main branch "that are not match".
 - Now apply serially all commits of Feature branch "that was store one side"
 
+Conflict:
+- fix the conflict then apply `git rebase --continue` commit message and done.
+or use `git rebase --abort` => To cancel the rebase process and back to normal.
 
 `git rebase -i HEAD~5` => -i (Interactive shell)
 - editor will open and press i for insert
