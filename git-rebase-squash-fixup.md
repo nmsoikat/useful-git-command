@@ -26,7 +26,12 @@ but for `git log` will show combined all five commit
 Fixup: If we choose f (fixup) instead of s (squash) 
 then, `git log --oneline` and `git log` both will show one commit for five commit.
 
-Reword: If we choose r (reword) Edit your commit message. (amend work on reset commit)
+Reword: If we choose r (reword) Edit your commit message. (amend work on recent commit)
+- Example:
+reword 121211 first commit
+pick 121212 second commit
+- (:WQ) git will continue rebase process until reword. when reword comes git will give a chance to re write the commit message.
+- (:wq) done.
 
 Drop: If we choose d (drop) Delete the commit using interactive rebase.
 
