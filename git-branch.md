@@ -1,4 +1,5 @@
-`git branch` show branch list.
+`git branch` show local branch list.
+`git branch -r` show remote branch list
 `git branch -a` show remote branch and local branch with different color.
 `git branch new-branch-name` create a new branch
 
@@ -9,3 +10,4 @@ If you are sure you want to delete it, run 'git branch -D demo'.
 
 Remote branch:
 `git push origin -d branch-name` Delete from Remote repository.
+`git push origin :branch-name`  Delete from Remote repository.
