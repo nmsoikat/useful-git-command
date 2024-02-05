@@ -1,6 +1,11 @@
 Git Reset: used to undo the changes in your working directory and get back to a specific commit.
 
+
+`git reset --soft commit-id` => Go to that commit. and all changes will remain as staged.
+
 `git reset commit-id` => Go to that commit. and all changes will remain as unstage.
+it is use `--mixed` flag by default (Unstaged changes after reset)
+
 `git reset --hard commit-id` => Go to that commit. Removed changes until that commit.
 
 `git reset HEAD~1` => Go back 1 commit. and all changes will remain as unstage.
