@@ -1,3 +1,5 @@
+`git commit` => It will open interactive shell to type commit message.
+
 `git commit -am "Add all and commit"` => not work for untracked(new file) file.
 `git commit -m "Not a correct commit message"`
 `git commit --amend -m "Correct the commit message"`
