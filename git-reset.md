@@ -13,6 +13,8 @@ it is use `--mixed` flag by default (Unstaged changes after reset)
 
 `git reset --hard HEAD^` => Go back one commit.
 
+Note: We can got backward and forward using git reset. because of reflog feature of git. git reset --hard delete visually but we can get back using reflog. but one caution reflog has 90days expiration time by default.
+
 Remote branch:
 `git reset --hard commit-id`
 `git push -f origin feature`
