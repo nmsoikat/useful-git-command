@@ -30,6 +30,13 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 - `ssh-add id_personal_github_account` // add private file
 - `ssh-add -d file_name` // to delete from ssh agent
 
+Err: Could not open a connection to your authentication agent.
+Did You Start ssh-agent?
+You might need to start ssh-agent before you run the ssh-add command:
+```
+eval `ssh-agent -s`
+```
+
 Note: When we have multiple account added to ssh agent then first added key will be the default key. So, for managing the multiple account we have to use ssh config
 follow Step 4.
 
