@@ -37,7 +37,7 @@ You might need to start ssh-agent before you run the ssh-add command:
 eval `ssh-agent -s`
 ```
 #### Important: Use the default terminal. Another terminal might not work (ex: fish terminal not work)
-#### Use the same terminal instance (where you have used `ssh-add` command). Otherwise might not work. If still not work. then close the remote terminal and log in again
+#### For multiple agents need configuration. If it does not work then, delete the agent and add a new one. because by default used the first one of `ssh-add -l`
 ```
 fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
