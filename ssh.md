@@ -107,5 +107,11 @@ Particular repos username and email. Just remove --global flag
 - `git config user.name "github_username"`
 - `git config user.email "github_email"`
 
-
+# Connect git into local project folder
+- `git init` initilize git
+- `git config user.name github_username`
+- `git config user.email github_email`
+- create a remote repository
+- `git remote add origin <new repo url>`
+- `git push`
 
