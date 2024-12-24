@@ -6,18 +6,19 @@
 - type file name example: `personal_id_rsa` it will create two files with key. One for private and another for public
   1. personal_id_rsa //private key
   2. personal_id_rsa.pub // public key
-- Press enter ... for default config
+- Press enter ... and enter. for default config
 - Done
 We can not use same key for multiple account. 
 
 ### Step-2: Add This Key To SSH Agent
 1. Start ssh agent (extra step then linux)
     - Open gitbash
-    - eval `ssh-agent -s`
+    - command: eval `ssh-agent -s`
 2. `ssh-add personal_id_rsa` // add private file
 
-Note: When we have multiple account added to ssh agent then first added key will be the default key. So, for managing the multiple account we have to use ssh config
-follow Step 4.
+Note: When we have multiple account added to ssh agent then 
+- first added key will be the default key.
+- So, for managing the multiple account we have to use ssh config follow Step 4.
 
 
 ### Step-3: Public Key Set Into Github Account
