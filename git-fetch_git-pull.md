@@ -5,3 +5,9 @@ The primary use of git prune is to clean up your working directory after you hav
 
 `git config --global fetch.prune true` => prune flag auto apply 
 whenever use `get fetch`
+
+**git pull warning:**
+hint: You have divergent branches and need to specify how to reconcile them.
+- `git pull --ff-only` first forward only
+- `git pull --no-rebase` merge
+- `git pull --rebase` rebase

@@ -46,9 +46,10 @@ together -p -u
 
 `git stash apply stash@{0}` To apply the stash without removing it from the stash list.
 
-`git stash drop stash@{0}` To remove stash from the stash list
+`git stash drop stash@{0}` To remove stash from the stash list. without apply.
 
-`git stash pop` To apply and drop. It will apply the latest stash.  
+`git stash pop` To apply and drop. It will apply the latest stash. 
+`git stash pop stash@{2}` apply and drop the stash@{2} 
 
 `git stash clear` To drop all stash from the stash list
 

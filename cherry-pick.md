@@ -7,5 +7,8 @@ Note: Lets say I am in Main branch and I have provided feature branch commit id
 Conflict:
 `git cherry-pick --abort` => Close cherry pick process. and everything going back to normal.
 Otherwise, fix the Conflict then.
-`git add `
-`git cherry-pick --continue` => commit message and done.
+`git add .`
+`git cherry-pick --continue` => (resume process for multiple commit) 
+after finish git add . git commit message and done.
+
+`git cherry-pick --skip` => Skip this commit, move to next (if picking multiple)
